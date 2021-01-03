@@ -56,7 +56,7 @@ function createcogumelo() {
                 // game over
                 clearInterval(leftTimer);
                 isGameOver = true;
-                document.body.innerHTML = ' <div class="GameOver"><h1 class="Game-Over">GAME OVER</h1></div>';
+                document.body.innerHTML = '<img src="gameover2.jpg" class="gameover">' ;
             } else {
                 cogumeloPosition -=10;
                 cogumelo.style.left = cogumeloPosition + 'px';
